@@ -1,0 +1,3 @@
+python-telegram-bot
+youtube-search-python
+nest-asyncio
