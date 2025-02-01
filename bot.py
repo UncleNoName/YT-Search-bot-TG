@@ -8,7 +8,7 @@ from youtubesearchpython import VideosSearch
 nest_asyncio.apply()
 
 
-TOKEN = '7608122250:AAHAgH7bg0bGHxKIaYmuFnXmtnpzIfJDzZ8'
+TOKEN = os.getenv('TOKEN')
 
 async def start(update: Update, context: CallbackContext):
     await update.message.reply_text("Привет! Напишите название песни или видео, и я найду его на YouTube.")
